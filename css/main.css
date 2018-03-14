@@ -1,0 +1,72 @@
+/* style header animation */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+  background-image: url(https://media.giphy.com/media/9bTjZrytydVRK/giphy.gif);
+}
+
+body a {
+  color: #00aced;
+}
+
+body a:hover {
+  color: #0087ba;
+}
+
+/* remove button focus */
+button:focus {
+  outline: 0 !important;
+}
+
+
+
+.header-logo {
+  padding-top: 20px;
+  width: 40%;
+  max-width: 400px;
+  margin-bottom: 50px;
+  
+}
+
+
+/*sección personajes*/
+
+#container-characters h2, .modal-title, .modal-body b, footer {
+  color: #FFE81F;
+}
+
+#container-characters img {
+  cursor: pointer;
+  height: 50vh;
+  width: auto;
+
+}
+
+#container-characters h2 {
+  font-size: 1.5rem;
+}
+
+/* modal */
+
+.modal-content {
+  background-color: #000;
+}
+
+.modal-body p>span, figcaption{
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+
+  #container-characters h2 {
+    font-size: 1.8rem;
+  }
+
+  .quotes h3 {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+}
